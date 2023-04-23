@@ -1,5 +1,5 @@
 {
-  "name": "FlowMatrixCreator",
+  "name": "little_demos",
   "source": "src/index.html",
   "scripts": {
     "watch": "webpack --watch",
@@ -33,11 +33,9 @@
   },
   "dependencies": {
     "@daign/math": "^1.0.17",
-    "@types/matter-js": "^0.18.2",
     "@types/three": "^0.146.0",
     "color-scheme": "^1.0.1",
     "dat.gui": "^0.7.9",
-    "matter-js": "^0.18.0",
     "p5": "^1.4.0",
     "transformation-matrix": "^2.14.0"
   },
