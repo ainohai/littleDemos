@@ -4,6 +4,7 @@ import { render as listRecursiveTree } from './render/p5/listRecursiveTree';
 import { render as randomTree } from './render/p5/randomTree';
 import { render as circlePacking } from './render/p5/circlePacking';
 import { render as circlesInRow } from './render/p5/circlesInRow';
+import { render as walkingTree } from './render/p5/walkingTree';
 
 
 const demos: {name: string, render: () => void}[] = [
@@ -13,6 +14,7 @@ const demos: {name: string, render: () => void}[] = [
     {name: "recursive tree in list", render: listRecursiveTree},
     {name: "level by level tree", render: levelByLevelTree},
     {name: "random tree", render: randomTree},
+    {name: "walking tree", render: walkingTree},
 ];
 
 
